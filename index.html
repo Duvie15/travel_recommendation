@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Travel Recommendation Website</title>
+        <link rel="stylesheet" href="travel_recommendation.css">
+    </head>
+    <body>
+        <nav>
+            <div class="nav-logo">
+                <img src="travel_logo.png" class="logo"> 
+                <span class="companyName">Travel Bloom</span>
+            </div>
+            <ul class="nav-links">
+                <li><a href="travel_recommendation.html" id="home">Home</a></li>
+                <li><a href="tr_about_us.html" id="about">About Us</a></li>
+                <li><a href="tr_contact_us.html" id="contact">Contact Us</a></li>
+            </ul>
+            <div class="nav-search">
+                <form class="search-bar">
+                    <span class="search-icon">🔍</span>
+                    <input type="text" id="searchInput" placeholder="Enter a destination or keyword">
+                    <button type="submit" id="search-btn">Search</button>
+                    <button type="button" id="clear-btn">Clear</button>
+                </form>
+            </div>
+        </nav>
+        <div class="container"></div>
+            <div class="socials">
+                <img src="Twitter_Logo2.png" id="twitter" width="40px" height="40px">
+                <img src="instagram_logo.png" id="instagram" width="40px" height="40px">
+            </div>
+            <div class="main-content">
+                <div class="homeContent">
+                    <h1>Explore Your Dream Destinations</h1>
+                    <p> It encourages exploration of unfamiliar territories, embracing diverse cultures and landscapes while pursuing the desired destination that captivates the heart and ignites a sense of wonder.</p>
+                    <button class="bookNow">Book Now</button>
+                </div>
+                <div id="searchResults"></div>
+            </div>
+        <script src="travel_recommendation.js"></script>
+    </body>
+</html>
