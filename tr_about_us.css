@@ -1,0 +1,185 @@
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    background-image: url(background_image2.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+/* General Nav Styles */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #0aaaeecc;
+    padding: 15px 20px;
+}
+/* Left Section - Logo & Company Name */
+.nav-logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    width: 70px; /* Adjust based on your logo size */
+    height: auto;
+    margin-right: 10px;
+}
+
+.companyName {
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: Cambria;
+}
+
+/* Centered Navigation Links */
+.nav-links {
+    list-style: none;
+    display: flex;
+    flex-grow: 1;
+    justify-content: left;
+    margin-left: 180px;
+}
+
+.nav-links li {
+    display: inline;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 10px 15px;
+}
+
+.nav-links a:hover {
+    background-color: #555;
+    border-radius: 10px;
+}
+
+
+/* for the about page*/
+.container {
+    display: flex;
+    justify-content: flex-start; /* Aligns content to the left */
+    align-items: flex-start; /* Aligns everything to the top */
+    /*height: 100vh; /* Full viewport height */
+    padding-left: 80px; /* Adds space to the left */
+    padding-top: 0px; /* Adds space to the top */
+  }
+
+.socials {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    left: 0;   /* Align to the left edge */
+    top: 60%;  /* Position it in the center vertically */
+    transform: translateY(-50%);  /* Fine-tune the centering */
+}
+
+#twitter, #instagram {
+    margin-bottom: 20px; /* Space between the icons */
+}
+
+.aboutContent {
+    /*max-width: 450px; /* Limits the content width */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; /* Aligns text to the left */
+    margin-left: 100px;  /* Add space from the left edge to avoid overlap with social icons */
+    margin-top: 0; /* Ensure content starts from the top of the page */
+    padding: 10px; /* Add padding to the content area */
+    /*background-color: rgba(0, 0, 0, 0.381);  /* Semi-transparent black background */
+    /*border-radius: 20px;  /* Optional: add rounded corners to the background */
+}
+
+h1 {
+    font-size: 30px;
+    color: whitesmoke;
+    margin-bottom: 0px; /* Space between heading and paragraph */
+    font-weight: bolder;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.381);  /* Semi-transparent black background */
+    border-radius: 20px;  /* Optional: add rounded corners to the background */
+}
+
+p {
+    font-size: 20px;
+    font-weight: bolder;
+    color: whitesmoke;  
+    line-height: 1.0;
+    margin-bottom: 30px; /* Space between paragraph and button */
+    width: 90%; /* Limits the paragraph width */
+    word-wrap: break-word; /* Ensures it wraps properly */
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.381);  /* Semi-transparent black background */
+    border-radius: 20px;  /* Optional: add rounded corners to the background */
+}
+
+.team-section {
+    padding: 10px;
+    margin-top: 0px;
+    margin-left: 130px;
+    background-color: rgba(0, 0, 0, 0.381); /* Same as other sections */
+    border-radius: 20px;
+    text-align: left;
+    width: 80%;
+}
+
+.team-section h2 {
+    font-size: 28px;
+    color: whitesmoke;
+    font-weight: bold;
+    margin-bottom: 0px;
+}
+
+.team-members {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.member {
+    background-color: rgba(255, 255, 255, 0.1); /* Slightly different background for contrast */
+    padding: 15px;
+    border-radius: 10px;
+    width: 30%; /* Adjust width for responsiveness */
+    text-align: center;
+    color: whitesmoke;
+}
+
+.member h3 {
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+.member p {
+    font-size: 13px;
+    margin-bottom: 10px;
+}
+
+.role {
+    display: inline-block;
+    background-color: blue; /* Adjust color to match your theme */
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+
+
+
+
+
+
+
+
+
